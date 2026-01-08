@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: inter;
+}
+/* navigation bar designing */
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    max-height: 92px;
+    width: 100%;
+}
+.logo{
+    margin: 16px 120px;
+    width: 139px;
+    height: 60px;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.opt ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+.opt ul li{
+    margin: 34px 32px;
+    font-size: 16;
+    font-weight: 500;
+}
+.btn button{
+    width: 164px;
+    height: 44px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 4px;
+    background-color: #30B868;
+    margin: 24px 120px;
+    color: white;
+    border-color: #30B868;
+}
