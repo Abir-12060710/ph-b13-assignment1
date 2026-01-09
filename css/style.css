@@ -64,7 +64,7 @@ body {
 .banner {
     width: 100%;
     height: 678px;
-    background-image: url("/assets/hero-bg.png");
+    background-image: url("../assets/hero-bg.png");
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
@@ -123,8 +123,7 @@ body {
 
 .btn1,
 .btn2 {
-    width: 251px;
-    height: 52px;
+    
     border-radius: 4px;
     font-size: 16px;
     font-weight: 600;
@@ -183,8 +182,8 @@ body {
 }
 
 .card {
-    width: 320px;
-    height: 316px;
+    width: 300px;
+    height: 296px;
     border-radius: 8px;
     padding: 24px;
     background-color: white;
@@ -204,10 +203,10 @@ body {
 }
 
 .cardpic img {
-    width: 70%;
-    height: 70%;
+    width: 60%;
+    height: 60%;
     object-fit: contain;
-    margin: 15%;
+    margin: 20%;
 }
 
 .cardhd {
@@ -224,7 +223,7 @@ body {
     text-align: center;
 }
 
-/* brain section */
+/* brain section or 3rd page */
 
 
 .pg3cont {
@@ -268,7 +267,7 @@ body {
 
 .pg3box4 ul {
     margin-top: 40px;
-    list-style-image: url("assets/CheckCircle.png");
+    list-style-image: url("../assets/CheckCircle.png");
 }
 
 .pg3box4 ul li {
@@ -330,8 +329,9 @@ body {
     font-weight: 400;
     color: #627382;
 }
+
 /* footer design */
-.ftr{
+.ftr {
     background-color: #001931;
     height: 348px;
     color: white;
@@ -340,28 +340,37 @@ body {
     flex-direction: column;
     align-items: center;
 }
-.footbx1{
-    display: flex;   
+
+.footbx1 {
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
     width: 95%;
     height: 64px;
 }
-.prt2{ 
+
+.prt2 {
     display: flex;
     flex-direction: column;
-    align-items: end;
+    align-items: initial;
 }
-.upper{
+
+.upper {
     font-size: 20px;
     font-weight: 500;
 }
+
 .lower ul {
     list-style: none;
     display: flex;
     flex-direction: row;
 }
-.cpyright{
+
+.lower ul li {
+    margin-right: 16px;
+}
+
+.cpyright {
     width: 100%;
     margin-top: 120px;
     font-size: 16px;
