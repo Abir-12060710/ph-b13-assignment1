@@ -330,3 +330,42 @@ body {
     font-weight: 400;
     color: #627382;
 }
+/* footer design */
+.ftr{
+    background-color: #001931;
+    height: 348px;
+    color: white;
+    padding: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footbx1{
+    display: flex;   
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    height: 64px;
+}
+.prt2{ 
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.upper{
+    font-size: 20px;
+    font-weight: 500;
+}
+.lower ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.cpyright{
+    width: 100%;
+    margin-top: 120px;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    text-align: center;
+}
