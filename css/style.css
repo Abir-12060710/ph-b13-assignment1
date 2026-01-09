@@ -191,3 +191,49 @@ body{
     font-size: 16px;
     text-align: center;
 }
+/* brain section */
+.pg3{
+    
+}
+.pg3cont{
+    margin: 60px;
+    display: flex;
+    flex-direction: row;
+
+}
+.sideimage{
+    width: 550px ;
+    height: 550px;
+}
+.pg3dtls{
+    padding: 100px;
+}
+.pg3box1{
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.pg3box2{
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #001931;
+    margin-bottom: 16px;
+}
+.pg3box3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #627382;
+}
+.pg3box4 ul{
+    margin-top: 40px;
+    list-style-image: url("assets/CheckCircle.png");
+}
+.pg3box4 ul li{
+    
+    font-size: 16px;
+    font-weight: 500;
+    color: #001931;
+}
